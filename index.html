@@ -7,21 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
 <style>
 
-.mentorship-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 5rem;
-  margin-top: 4rem;
-  align-items: start;
-}
-@media (max-width: 900px) {
-  .mentorship-grid {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
-  }
-}
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
@@ -53,6 +41,20 @@
     line-height: 1.7;
     overflow-x: hidden;
   }
+
+.mentorship-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5rem;
+  margin-top: 4rem;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .mentorship-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
 
   /* ===== NAV ===== */
   nav {
@@ -1777,7 +1779,6 @@
   <div class="container">
     <div class="section-label reveal">Capstone Process</div>
     <h2 class="section-title reveal">Mentorship Reflection</h2>
-
     <div class="mentorship-grid">
 
       <!-- Left column: mentor card + growth pills -->
