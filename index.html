@@ -575,6 +575,12 @@
     margin: 0 auto 1.2rem;
     font-size: 1.3rem;
   }
+
+  @media (max-width: 600px) {
+    .thi {
+      padding-top: 2rem;
+    }
+  }
   .thi-time {
     font-size: 0.7rem;
     font-weight: 500;
@@ -878,8 +884,8 @@
     font-weight: 400;
     line-height: 1.5;
     color: rgba(245,240,232,0.85);
-    max-width: 780px;
-    margin: 3rem auto;
+    max-width: 800px;
+    margin: 2rem auto;
     position: relative;
   }
 .reflection-quote {
@@ -898,7 +904,7 @@
   opacity: 0.4;
   position: absolute;
   top: -2rem; /* Moves it vertically aligned with the first line */
-  left: 0; /* Anchors firmly to the far left container edge */
+  left: 0; /* Anchors to the far left container edge */
   font-family: var(--font-display);
   line-height: 1.25;
 }
@@ -909,10 +915,10 @@
   color: var(--teal);
   opacity: 0.4;
   position: absolute;
-  bottom: -2.5rem; /* Moves it vertically aligned with the last line */
+  bottom: -2.75rem; /* Moves it vertically aligned with the last line */
   right: -1;        /* Anchors firmly to the far right container edge */
   font-family: var(--font-display);
-  line-height: 1.15;
+  line-height: 1.1;
 }
   .reflection-body {
     max-width: 680px;
@@ -1103,6 +1109,7 @@
     <li><a href="#daily">Daily Life</a></li>
     <li><a href="#challenges">Challenges</a></li>
     <li><a href="#reflection">Reflection</a></li>
+    <li><a href="#mentorship">Mentorship</a></li>
   </ul>
 </nav>
 
@@ -1746,6 +1753,72 @@
       <span class="skill-pill">Teamwork</span>
       <span class="skill-pill">Professionalism</span>
       <span class="skill-pill">Lifelong Learning</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- MENTORSHIP REFLECTION -->
+<section id="mentorship" style="background: var(--white);">
+  <div class="container">
+    <div class="section-label reveal">Capstone Process</div>
+    <h2 class="section-title reveal">Mentorship Reflection</h2>
+
+    <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 5rem; margin-top: 4rem; align-items: start;">
+
+      <!-- Left column: mentor card + growth pills -->
+      <div class="reveal">
+        <div style="background: var(--navy); border-radius: 16px; padding: 2rem; margin-bottom: 1.5rem;">
+          <div style="font-size: 1rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--teal-light); margin-bottom: 1rem;">Mentor</div>
+          <div style="font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; color: var(--cream); margin-bottom: 0.3rem;">Dr. Regehr</div>
+          <div style="font-size: 0.85rem; color: rgba(245,240,232,0.55); margin-bottom: 1.5rem;">Regehr Family Dental, Vernon BC</div>
+          <div style="width: 100%; height: 1px; background: rgba(255,255,255,0.08); margin-bottom: 1.5rem;"></div>
+          <div style="font-size: 0.78rem; color: rgba(245,240,232,0.45); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.8rem;">Role</div>
+          <div style="font-size: 0.9rem; color: rgba(245,240,232,0.8);">Practicing General Dentist &amp; Capstone Mentor</div>
+        </div>
+
+        <div style="background: var(--cream); border-radius: 16px; padding: 1.8rem;">
+          <div style="font-size: 1rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--teal); margin-bottom: 1rem;">Skills Developed</div>
+          <div style="display: flex; flex-direction: column; gap: 0.7rem;">
+            <div style="display: flex; align-items: center; gap: 0.8rem;">
+              <div style="width: 6px; height: 6px; border-radius: 50%; background: var(--teal); flex-shrink: 0;"></div>
+              <span style="font-size: 0.88rem; color: var(--text-muted);">Finding reliable academic sources</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.8rem;">
+              <div style="width: 6px; height: 6px; border-radius: 50%; background: var(--teal); flex-shrink: 0;"></div>
+              <span style="font-size: 0.88rem; color: var(--text-muted);">Organizing large amounts of information</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.8rem;">
+              <div style="width: 6px; height: 6px; border-radius: 50%; background: var(--teal); flex-shrink: 0;"></div>
+              <span style="font-size: 0.88rem; color: var(--text-muted);">Formal academic writing</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.8rem;">
+              <div style="width: 6px; height: 6px; border-radius: 50%; background: var(--teal); flex-shrink: 0;"></div>
+              <span style="font-size: 0.88rem; color: var(--text-muted);">Detailed shadowing observation notes</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.8rem;">
+              <div style="width: 6px; height: 6px; border-radius: 50%; background: var(--teal); flex-shrink: 0;"></div>
+              <span style="font-size: 0.88rem; color: var(--text-muted);">Turning observations into written analysis</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right column: reflection text + advice card -->
+      <div class="reveal">
+        <p style="font-size: 1.05rem; color: var(--text-muted); line-height: 1.9; margin-bottom: 1.5rem; text-indent: 3rem;">My meetings with Dr. Regehr were productive and helped me stay on track throughout the Capstone process. Because Dr. Regehr is an actual practicing dentist, the guidance I received felt grounded and real rather than generic advice about how to write a school project. Getting feedback from someone who lives the career I was researching made a noticeable difference in how I approached both my paper and my shadowing observations.</p>
+
+        <p style="font-size: 1.05rem; color: var(--text-muted); line-height: 1.9; margin-bottom: 1.5rem; text-indent: 3rem;">Going into this project, I honestly did not know that much about what dentistry actually involved beyond what you experience sitting in the patient's chair. My attitude shifted quite a bit as well. At the start I was a little unsure whether I had picked the right topic, but the more I researched and the more time I spent at the clinic, the more genuinely interested I became in dentistry as a career path. Watching real procedures, sitting in on team huddles, and talking directly with Dr. Regehr and the clinic staff changed the way I thought about the profession in a way that just reading articles never could have.</p>
+
+        <p style="font-size: 1.05rem; color: var(--text-muted); line-height: 1.9; margin-bottom: 2rem; text-indent: 3rem;">Throughout the mentoring process, things ran fairly smoothly and there were no major problems, which I think was partly because the check-ins with Dr. Regehr kept me organized and on track from early on.</p>
+
+        <!-- Advice card -->
+        <div style="background: var(--navy); border-radius: 16px; padding: 2rem; position: relative; overflow: hidden;">
+          <div style="position: absolute; top: -20px; right: -10px; font-size: 8rem; color: rgba(255,255,255,0.03); font-family: var(--font-display); line-height: 1;">❝</div>
+          <div style="font-size: 1rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--teal-light); margin-bottom: 1rem;">Advice for Future Capstone Students</div>
+          <p style="font-size: 0.95rem; color: rgba(245,240,232,0.75); line-height: 1.85;">Spread your work out and take the timeline seriously from the very beginning. It is easy to look at the semester ahead and feel like there is plenty of time — but that time disappears a lot faster than you expect. Chipping away at the project consistently, even in small amounts each week, makes the whole experience much more manageable and a lot less overwhelming towards the end.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
